@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  /* color: white; */
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  /* background-image: url(image/imgback.jpg); */
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  position: relative;
+}
+.logo {
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  background-image: linear-gradient(45deg, #bd08eb, #0977ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.logored {
+  color: white;
+  font-weight: 900;
+  font-weight: bolder;
+}
+.content {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: white;
+}
+.web {
+  font-size: 18px;
+  font-weight: 900;
+  color: white;
+}
+.content h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+.content h1 span {
+  /* color: chocolate; */
+  background-image: linear-gradient(45deg, #bd08eb, #0977ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.content button {
+  font-size: 15px;
+  color: white;
+  background: linear-gradient(45deg, #bd08eb, #0977ee);
+  padding: 5px 25px 5px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.content button:hover {
+  background-color: white;
+}
+.launch-time {
+  display: flex;
+  margin-left: -15px;
+}
+.launch-time div {
+  flex-basis: 100px;
+}
+.launch-time div p {
+  font-size: 60px;
+  margin-bottom: -14px;
+}
+.styl {
+  text-align: center;
+}
